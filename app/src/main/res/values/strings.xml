@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Calculator</string>
+    <string name="app_name">CSE 476 Calculator</string>
     <string name="zero">0</string>
     <string name="one">1</string>
     <string name="two">2</string>
@@ -20,7 +20,7 @@
     <string name="plus_minus">+/-</string>
     <string name="point">.</string>
     <string name="equals">=</string>
-    <string name="backspace"> </string>
+    <string name="backspace">AA </string>
     <string name="sin">sin</string>
     <string name="cosine">cos</string>
     <string name="display">Enter a value</string>
