@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
             displayText.setText("");
             displayText.setSelection(0);
         } else {
-            Expression newExpression = new Expression("sib("+result+")");
+            Expression newExpression = new Expression("sin("+result+")");
             String finalResult = String.valueOf(newExpression.calculate());
             if(Double.isNaN(Double.parseDouble(finalResult))){
                 Toast toast = Toast.makeText(getApplicationContext(), "The result is not valid", Toast.LENGTH_LONG);
